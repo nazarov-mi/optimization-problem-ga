@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true
+  },
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": [
+    "**/__test__/**"
+  ]
+}
